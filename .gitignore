@@ -1,0 +1,21 @@
+# ----------------------
+# OS / Editor files
+# ----------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# ----------------------
+# Python cache / compiled files
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ----------------------
+# Audio / large generated files
+# ----------------------
+*.wav
+*.mp3
