@@ -7,6 +7,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RAW_DIR = os.path.join(BASE_DIR, "raw")               # original data files
 PARTICIPANTS_DIR = os.path.join(BASE_DIR, "participants")  
 MERGED_DIR = os.path.join(BASE_DIR, "merged")        # output merged files
+CLEAN_DIR = os.path.join(MERGED_DIR, "clean")
 
 # File suffixes
 BELT_SUFFIX = "_belt.jsonl"

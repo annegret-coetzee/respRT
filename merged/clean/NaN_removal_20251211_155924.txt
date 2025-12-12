@@ -1,0 +1,43 @@
+NaN removal log created on 2025-12-11 15:59:24.391388
+======================================================================
+
+Processing: C:\Users\anneg\OneDrive\Desktop\ExPrac\respRT\merged\P001_RT_with_phase.csv
+------------------------------------------------------------
+Rows containing NaNs: 1
+Detailed rows removed:
+     trial  side  volume scheduled_timestamp_utc      response_timestamp_utc  RT_seconds     resp_status  response_ts_sec  resp_phase_deg resp_phase_label
+113    114  none     NaN                     NaN  2025-11-30 11:49:31.092675         NaN  false_positive     1.764503e+09      245.586075       exhalation
+
+Cleaned file saved as: C:\Users\anneg\OneDrive\Desktop\ExPrac\respRT\merged\clean\P001_RT_with_phase_clean.csv
+
+Processing: C:\Users\anneg\OneDrive\Desktop\ExPrac\respRT\merged\P002_RT_with_phase.csv
+------------------------------------------------------------
+No NaNs found.
+
+Cleaned file saved as: C:\Users\anneg\OneDrive\Desktop\ExPrac\respRT\merged\clean\P002_RT_with_phase_clean.csv
+
+Processing: C:\Users\anneg\OneDrive\Desktop\ExPrac\respRT\merged\P003_RT_with_phase.csv
+------------------------------------------------------------
+Rows containing NaNs: 2
+Detailed rows removed:
+    trial  side  volume scheduled_timestamp_utc      response_timestamp_utc  RT_seconds     resp_status  response_ts_sec  resp_phase_deg resp_phase_label
+72     73  none     NaN                     NaN  2025-11-30 17:50:44.006573         NaN  false_positive     1.764525e+09      270.000000       inhalation
+92     92  none     NaN                     NaN  2025-11-30 17:52:13.669906         NaN  false_positive     1.764525e+09        4.640179       inhalation
+
+Cleaned file saved as: C:\Users\anneg\OneDrive\Desktop\ExPrac\respRT\merged\clean\P003_RT_with_phase_clean.csv
+
+Processing: C:\Users\anneg\OneDrive\Desktop\ExPrac\respRT\merged\P004_RT_with_phase.csv
+------------------------------------------------------------
+No NaNs found.
+
+Cleaned file saved as: C:\Users\anneg\OneDrive\Desktop\ExPrac\respRT\merged\clean\P004_RT_with_phase_clean.csv
+
+Processing: C:\Users\anneg\OneDrive\Desktop\ExPrac\respRT\merged\P005_RT_with_phase.csv
+------------------------------------------------------------
+Rows containing NaNs: 1
+Detailed rows removed:
+    trial  side  volume scheduled_timestamp_utc      response_timestamp_utc  RT_seconds     resp_status  response_ts_sec  resp_phase_deg resp_phase_label
+53     54  none     NaN                     NaN  2025-12-01 09:22:07.755935         NaN  false_positive     1.764581e+09      124.298425       exhalation
+
+Cleaned file saved as: C:\Users\anneg\OneDrive\Desktop\ExPrac\respRT\merged\clean\P005_RT_with_phase_clean.csv
+
