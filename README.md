@@ -5,15 +5,16 @@
 ---
 
 ## Folder Structure
+```text
 respRT/
-│
-├── raw/ # Original participant data files (JSONL for belt, CSV for RT)
-├── participants/ # Participant utility scripts
-├── merged/ # Intermediate merged CSV files
-│ └── clean/ # Cleaned CSV files and master dataset
-├── config.py # Configuration and paths
-├── process-data.py # Data processing and master file creation
-└── eta.py # ANOVA and eta-squared analysis
+├── raw/                 # Original participant data files (JSONL for belt, CSV for RT)
+├── participants/        # Participant utility scripts
+├── merged/              # Intermediate merged CSV files
+│   └── clean/           # Cleaned CSV files and master dataset
+├── config.py            # Configuration and paths
+├── process-data.py      # Data processing and master file creation
+└── eta.py               # ANOVA and eta-squared analysis
+```
 
 
 ---
@@ -34,17 +35,20 @@ pip install pandas numpy scipy statsmodels
 
 ## Configuration (config.py)
 
-BASE_DIR: Base working directory (auto-detected)
-RAW_DIR: Folder containing raw data files
-PARTICIPANTS_DIR: Folder with participant utility scripts
-MERGED_DIR: Output folder for merged CSV files
-CLEAN_DIR: Output folder for cleaned CSV files
-File suffixes for participant files:
-    - BELT_SUFFIX = "_belt.jsonl"
-    - RT_SUFFIX = "_RT.csv"
-Peak detection settings:
-    - SMOOTH_WINDOW: Rolling mean window for belt smoothing
-    - EXPECTED_BREATHS_PER_MIN: Used for auto-tuning peak distance
+### Directories
+- **`BASE_DIR`**: Base working directory (auto-detected)
+- **`RAW_DIR`**: Folder containing raw data files
+- **`PARTICIPANTS_DIR`**: Folder with participant utility scripts
+- **`MERGED_DIR`**: Output folder for merged CSV files
+- **`CLEAN_DIR`**: Output folder for cleaned CSV files
+
+### File suffixes (participant files)
+- **`BELT_SUFFIX`**: `_belt.jsonl`
+- **`RT_SUFFIX`**: `_RT.csv`
+
+### Peak detection settings
+- **`SMOOTH_WINDOW`**: Rolling mean window for belt smoothing
+- **`EXPECTED_BREATHS_PER_MIN`**: Used for auto-tuning peak distance
 
 ## Data Processing (process-data.py)
 
