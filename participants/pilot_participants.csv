@@ -1,0 +1,6 @@
+participant_id,first_name,surname,age,gender,test_date,notes
+P001,Annegret,Coetzee,33,f,30/11/2025,pilot
+P002,Salomeia,Sadovnik,,f,30/11/2025,pilot
+P003,M1,,,,30/11/2025,pilot
+P004,K2,,,,30/11/2026,pilot
+P005,Mi,,,,30/11/2025,pilot
