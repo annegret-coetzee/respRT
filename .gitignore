@@ -20,32 +20,5 @@ __pycache__/
 *.wav
 *.mp3
 
-# ----------------------
-# Pre-processing scripts (intentionally ignored)
-# ----------------------
-csv_comparison.py
-fix_merge.py
-reconstruct_csv.py
-rename_files.py
-same.py
-eta.py
-process_data.py
 
-# ----------------------
-# Data handling
-# ----------------------
-
-# Ignore everything in data/
-data/*
-
-# Allow these directories
-!data/study/
-!data/pilot/
-
-# Allow their contents
-!data/study/**
-!data/pilot/**
-
-
-raw/
-merged/
+scripts/*

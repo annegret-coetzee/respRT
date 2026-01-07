@@ -1,13 +1,30 @@
-participant_id,Identifier,first_name,surname,age,gender,test_date,notes
-P001,AAA1,,,,,17.12.2025,
-P002,III1,,,,,17.12.2026,
-P003,Ann1,,,,,17.12.2027,
-P004,Ch1,,,,,17.12.2028,
-P005,Chr1,,,,,17.12.2029,
-P006,JA1,,,,,17.12.2030,
-P007,Ma1,,,,,17.12.2031,
-P008,Joh1,,,,,17.12.2032,
-P009,ST1,,,,,17.12.2033,
-P010,J1,,,,,17.12.2034,
-P011,Kkk1,,,,,20.12.2025,
-P012,Vi1,,,,,19.12.2025,
+participant_id;first_name;surname;age;gender;Handness;test_date;notes
+P001;Annegret;Coetzee;33;f;;30/11/2025;pilot
+P002;Salomeia;Sadovnik;;f;;30/11/2025;pilot
+P003;M1;;;;;30/11/2025;pilot
+P004;K2;;;;;30/11/2026;pilot
+P005;Mi;;;;;30/11/2025;pilot
+P006;Malina;Borstel;22;F;Right;17.12.2025;
+P007;Stefanie;Klietsch;23;F;right;17.12.2025;
+P008;Joris;Degen;23;M;Right;17.12.2025;
+P009;Christof ;Baum;20;M;Right;17.12.2025;
+P010;Anna;Baumann;26;F;Right;17.12.2025;
+P011;Irina;Borovaia;34;F;Right;17.12.2025;
+P012;Peter ;Neumann;31;M;Right;18.12.2025;
+P013;Vitalii;Zhukov;37;M;Right;19.12.2025;
+P014;Taras;Ulyanov;38;M;Right;19.12.2025;
+P015;Ksenia;Shkadarevisch;21;F;Right;19.12.2025;
+P016;Fadih;Saleh;39;M;Right;19.12.2025;
+P017;Elena;Prokusheva;34;F;Right ;19.12.2025;
+P018;Anton;Sorokin;23;M;Right;3.1.2026;
+P019;Polina;Skoblova;23;F;Left;3.1.2026;
+P020;Igor;Hofer;29;M;Right;3.1.2026;
+P021;Sara;Abdallah;21;F;Right;3.1.2026;
+P022;Rita;Al-Khalil;23;F;Right;3.1.2026;
+P023;Voitech;Zachnik;35;M;Right;3.1.2026;
+P024;Anna;Krivovich;30;F;Right;3.1.2026;
+P025;Ann Zoe Thomas;;23;F;Right;17.12.2025;
+P026;Charlotte;Prager;20;F;Right;17.12.2025;
+P027;Jakob;Schwermann;26;M;Right;17.12.2025;
+P028;Johanna;Kürbis;25;F;Right;17.12.2025;
+P029;Merle;Schuschan;23;F;Right;17.12.2025;
